@@ -7,11 +7,9 @@ export const CardButton = styled.div`
   button {
     cursor: pointer;
     border: none;
-    width: 100%;
-    height: 48px;
-    background: ${(props) =>
-      props.background ? `${COLORS[props.background]}` : "none"};
-    color: ${(props) =>
-      props.color ? `${COLORS[props.color]}` : `${COLORS.WHITE}`};
+    width: ${(props) => (props.width ? props.width : "auto")};
+    height: ${(props) => (props.height ? props.height : "auto")};
+    background: ${(props) => (props.background ? props.background : "none")};
+    color: ${(props) => (props.color ? props.color : `${COLORS.WHITE}`)};
   }
 `;
