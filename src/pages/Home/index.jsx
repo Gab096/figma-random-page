@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/organisms/Header';
-import Register from '../../components/organisms/Register/indesx';
+import Register from '../../components/organisms/Register';
 import { Container } from './style';
 
 function Home() {
