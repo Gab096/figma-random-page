@@ -2,6 +2,7 @@ import React from 'react';
 import CompanyValues from '../../molecules/CompanyValues';
 import { Icons , Images } from '../../../assets';
 import { Container,CompanyValuesContainer, CeoContainer } from './style';
+import CeoMessageCard from '../../molecules/CeoMessageCard';
 
 function Company() {
   return (
@@ -31,6 +32,7 @@ function Company() {
     </CompanyValuesContainer> 
     <CeoContainer>
      <img src={Images.CEO} alt="ceoimage" />
+    <CeoMessageCard />
     </CeoContainer>
   </Container>
   );

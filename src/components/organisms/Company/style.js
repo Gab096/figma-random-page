@@ -9,12 +9,13 @@ export const Container = styled.div`
   gap: 50px;
 `;
 export const CompanyValuesContainer = styled.div`
-  width: 40%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   gap: 150px;
 `;
 export const CeoContainer = styled.div`
+  width: 30%;
   img {
     border-radius: 18px;
   }

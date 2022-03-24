@@ -2,6 +2,7 @@ import LogoIcon from "./icons/LOGO.svg";
 import GlassesIcon from "./icons/glassesicon.svg";
 import EspiralIcon from "./icons/espiralicon.svg";
 import InfoIcon from "./icons/infoicon.svg";
+import QuotationMarks from "./icons/quotationmarks.svg";
 
 import WomanLamp from "./images/mulherlampada.png";
 import CEOImage from "./images/CEOimage.png";
@@ -11,6 +12,7 @@ export const Icons = {
   Glasses: GlassesIcon,
   Espiral: EspiralIcon,
   Info: InfoIcon,
+  Quotation: QuotationMarks,
 };
 
 export const Images = {
