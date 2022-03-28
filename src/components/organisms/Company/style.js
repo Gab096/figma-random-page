@@ -5,8 +5,7 @@ export const Container = styled.div`
   width: 90%;
   align-self: center;
   display: flex;
-  justify-content: center;
-  gap: 50px;
+  justify-content: space-around;
 `;
 export const CompanyValuesContainer = styled.div`
   width: 30%;

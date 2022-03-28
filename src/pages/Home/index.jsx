@@ -1,6 +1,7 @@
 import React from 'react';
 import Company from '../../components/organisms/Company';
 import Header from '../../components/organisms/Header';
+import OurServices from '../../components/organisms/OurServices';
 import Register from '../../components/organisms/Register';
 import { Container } from './style';
 
@@ -10,6 +11,7 @@ function Home() {
     <Header />
     <Register />
     <Company />
+    <OurServices />
   </Container>
   );
 }

@@ -32,7 +32,7 @@ function Company() {
     </CompanyValuesContainer> 
     <CeoContainer>
      <img src={Images.CEO} alt="ceoimage" />
-    <CeoMessageCard />
+     <CeoMessageCard />
     </CeoContainer>
   </Container>
   );
