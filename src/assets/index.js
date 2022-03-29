@@ -13,6 +13,9 @@ import PieaceCircleIcon from "./icons/pieacecircle.svg";
 
 import WomanLamp from "./images/mulherlampada.png";
 import CEOImage from "./images/CEOimage.png";
+import TodoListImage from "./images/todolist.png";
+import MoneyImage from "./images/money.png";
+import KeyImage from "./images/key.png";
 
 export const Icons = {
   Logo: LogoIcon,
@@ -32,4 +35,7 @@ export const Icons = {
 export const Images = {
   WL: WomanLamp,
   CEO: CEOImage,
+  TodoList: TodoListImage,
+  Money: MoneyImage,
+  Key: KeyImage,
 };

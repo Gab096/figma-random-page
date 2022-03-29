@@ -1,4 +1,5 @@
 import React from 'react';
+import { Slideshow } from '../../components/molecules/Slide';
 import Company from '../../components/organisms/Company';
 import Header from '../../components/organisms/Header';
 import OurServices from '../../components/organisms/OurServices';
@@ -12,6 +13,7 @@ function Home() {
     <Register />
     <Company />
     <OurServices />
+    <Slideshow />
   </Container>
   );
 }
