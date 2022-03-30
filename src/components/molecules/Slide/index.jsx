@@ -26,8 +26,14 @@ const Properties = {
   arrows:false,
   indicators: true,
   scale: 0.4,
-  indicators: i => (<Indicator className='active' />),
+  indicators: i => (<Indicator/>),
+  onChange: <Indicator className="active"/>
 }
+
+const ChangeIndicatorsColor = slideImages.map((slideImage,index) => {
+   return 
+})
+
 
 export const Slideshow = () => {
     return (

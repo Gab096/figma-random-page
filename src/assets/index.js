@@ -1,4 +1,5 @@
 import LogoIcon from "./icons/LOGO.svg";
+import LogoGrayIcon from "./icons/LOGOgray.svg";
 import GlassesIcon from "./icons/glassesicon.svg";
 import EspiralIcon from "./icons/espiralicon.svg";
 import InfoIcon from "./icons/infoicon.svg";
@@ -10,6 +11,7 @@ import AtendaceIcon from "./icons/attendanceicon.svg";
 import TerminalIcon from "./icons/terminalicon.svg";
 import SafetyIcon from "./icons/safetyicon.svg";
 import PieaceCircleIcon from "./icons/pieacecircle.svg";
+import SocialMediaIcon from "./icons/socialmedia.svg";
 
 import WomanLamp from "./images/mulherlampada.png";
 import CEOImage from "./images/CEOimage.png";
@@ -19,6 +21,7 @@ import KeyImage from "./images/key.png";
 
 export const Icons = {
   Logo: LogoIcon,
+  LogoGray: LogoGrayIcon,
   Glasses: GlassesIcon,
   Espiral: EspiralIcon,
   Info: InfoIcon,
@@ -30,6 +33,7 @@ export const Icons = {
   Terminal: TerminalIcon,
   Safety: SafetyIcon,
   PieaceCircle: PieaceCircleIcon,
+  SocialMedia: SocialMediaIcon,
 };
 
 export const Images = {

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import COLORS from "../../../common/colors";
 
 export const Container = styled.div`
   height: 100vh;
@@ -41,15 +42,14 @@ export const Indicator = styled.div`
   top: 100px;
 
   margin-left: 10px;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
 
-  background: #fff;
-  border: 1px solid #000;
+  background: #ccc;
   border-radius: 50px;
 
-  > .active {
+  :active {
     color: #fff;
-    background: #ccc;
+    background: ${COLORS.BLUE};
   }
 `;
