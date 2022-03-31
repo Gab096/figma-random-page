@@ -1,11 +1,11 @@
 import React from 'react';
-import { Images } from '../../../assets/index'
+import { Icons, Images } from '../../../assets/index'
 
 import Input from '../../atomics/Input';
 import Button from '../../atomics/Button';
 import COLORS from '../../../common/colors';
 
-import { Container, Form, FormContainer } from './style';
+import { Container, Form, FormContainer, ImgContainer } from './style';
 
 function Register() {
   return (
@@ -20,7 +20,10 @@ function Register() {
         </div>
       </Form>
     </FormContainer>
-    <img src={Images.WL} alt="woman lamp icon" />
+    <ImgContainer>
+      <img className='WL' src={Images.WL} alt="woman lamp icon" />
+      <img className='BWL' src={Icons.Vector} alt="backgorundWL" />
+    </ImgContainer>
   </Container>
   );
 }

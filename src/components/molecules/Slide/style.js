@@ -3,6 +3,15 @@ import COLORS from "../../../common/colors";
 
 export const Container = styled.div`
   height: 100vh;
+  .react-slideshow-container + ul.indicators {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .react-slideshow-container + ul.indicators .active {
+    color: #fff;
+    background: ${COLORS.BLUE};
+  }
 `;
 export const EachSlide = styled.div`
   display: flex;
@@ -39,17 +48,12 @@ export const TextContainer = styled.div`
 `;
 export const Indicator = styled.div`
   position: relative;
-  top: 100px;
+  left: 98%;
+  bottom: 250px;
 
-  margin-left: 10px;
   width: 15px;
   height: 15px;
 
   background: #ccc;
   border-radius: 50px;
-
-  :active {
-    color: #fff;
-    background: ${COLORS.BLUE};
-  }
 `;

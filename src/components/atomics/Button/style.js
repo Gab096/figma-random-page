@@ -2,7 +2,6 @@ import styled from "styled-components";
 import COLORS from "../../../common/colors/index";
 
 export const CardButton = styled.div`
-  width: 100%;
   display: flex;
   button {
     cursor: pointer;

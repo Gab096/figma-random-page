@@ -15,19 +15,65 @@ export const LogoContainer = styled.div`
     width: 100%;
   }
 `;
-export const ButtonsContainer = styled.div`
+export const UlContainer = styled.ul`
   width: 50%;
   display: flex;
   align-items: center;
-  gap: 44px;
-  button {
+  justify-content: flex-end;
+  gap: 100px;
+  li {
     font-family: "Abel";
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 24px;
-    :hover {
-      color: ${COLORS.BLUE};
+    transition: 0.4s;
+    a {
+      color: ${COLORS.BLACK};
+      text-decoration: none;
+      :hover {
+        color: ${COLORS.BLUE};
+      }
     }
   }
+  [data-dropdown] {
+    position: relative;
+  }
+  [data-dropdown] .dropdown-menu {
+    display: none;
+  }
+  [data-dropdown]:hover .dropdown-menu {
+    display: block;
+  }
+`;
+
+export const AccordionUl = styled.ul`
+  position: absolute;
+  left: -80px;
+  width: 200px;
+  height: auto;
+  color: #fff;
+  background-color: #282828;
+  display: none;
+
+  li {
+    padding: 20px;
+  }
+  li a {
+    text-align: center;
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: ${COLORS.WHITE};
+  }
+  li a:hover {
+    color: ${COLORS.BLUE};
+  }
+`;
+
+export const Divider = styled.div`
+  width: 100%;
+  border-bottom: 1px solid ${COLORS.BLUE};
 `;

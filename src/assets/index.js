@@ -12,6 +12,7 @@ import TerminalIcon from "./icons/terminalicon.svg";
 import SafetyIcon from "./icons/safetyicon.svg";
 import PieaceCircleIcon from "./icons/pieacecircle.svg";
 import SocialMediaIcon from "./icons/socialmedia.svg";
+import VectorIcon from "./icons/Vector.svg";
 
 import WomanLamp from "./images/mulherlampada.png";
 import CEOImage from "./images/CEOimage.png";
@@ -34,6 +35,7 @@ export const Icons = {
   Safety: SafetyIcon,
   PieaceCircle: PieaceCircleIcon,
   SocialMedia: SocialMediaIcon,
+  Vector: VectorIcon,
 };
 
 export const Images = {
